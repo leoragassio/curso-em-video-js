@@ -5,13 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Primeiro Programa</title>
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <script>
-        window.alert('Minha primeira mensagem!');
-        window.confirm('Esta gostando do conteúdo??');
-        var nome = window.prompt('Qual é seu nome?');
+        var n1 = Number(window.prompt('Digite um número: '));//Converter a var n1 de string para numero
+        var n2 = Number(window.prompt('Digite outro número: '));//Converter a var n2 de string para numero
+        var soma = n1 + n2;
+        window.alert(` ${n1} + ${n2} = ${soma}`);//tranformar a var soma em string
     </script>
     <header>
         <h1>Html, Css e JavaScript</h1>
@@ -20,6 +21,7 @@
         <h1>" Olá, Mundo! "</h1>
         <p>Já me livrei da maldição :)</p>
     </main>
+    <br>
     
 </body>
 </html>
