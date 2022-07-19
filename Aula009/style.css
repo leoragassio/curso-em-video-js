@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+body{
+    background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    
+}
+.msg{
+    background-color: white;
+    color: black;
+    font-size: 2em;
+    width: fit-content;
+    border-radius: 10px;
+}
